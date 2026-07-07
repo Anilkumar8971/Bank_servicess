@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY sample.py .
 
+  #EXPOSE 5020 
+
 CMD ["python", "sample.py"]
